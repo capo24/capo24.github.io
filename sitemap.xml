@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://capo24.gtihub.io/</loc>
+    <lastmod>2020-09-06T11:51:33+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://capo24.gtihub.io/categories/</loc>
+    <lastmod>2020-09-06T11:51:33+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://capo24.gtihub.io/post/</loc>
+    <lastmod>2020-09-06T11:51:33+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://capo24.gtihub.io/tags/</loc>
+    <lastmod>2020-09-06T11:51:33+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://capo24.gtihub.io/post/%E5%86%85%E9%83%A8%E6%8E%92%E5%BA%8F/</loc>
+    <lastmod>2020-09-06T11:51:33+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://capo24.gtihub.io/categories/%E6%8A%80%E6%9C%AF/</loc>
+    <lastmod>2020-09-06T11:51:33+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://capo24.gtihub.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</loc>
+    <lastmod>2020-09-06T11:51:33+08:00</lastmod>
+  </url>
+  
+</urlset>

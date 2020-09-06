@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>技术 on Capo&#39;s blog</title>
+    <link>http://capo24.gtihub.io/categories/%E6%8A%80%E6%9C%AF/</link>
+    <description>Recent content in 技术 on Capo&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 06 Sep 2020 11:51:33 +0800</lastBuildDate>
+    
+	<atom:link href="http://capo24.gtihub.io/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>内部排序</title>
+      <link>http://capo24.gtihub.io/post/%E5%86%85%E9%83%A8%E6%8E%92%E5%BA%8F/</link>
+      <pubDate>Sun, 06 Sep 2020 11:51:33 +0800</pubDate>
+      
+      <guid>http://capo24.gtihub.io/post/%E5%86%85%E9%83%A8%E6%8E%92%E5%BA%8F/</guid>
+      <description>导图 插入排序 直接插入排序  思想：
+ 折半插入排序  思想：折半查找+插入。先用折半查找待排元素前已经有序序列中待排序元素的插入位置，再将插入位置之后元素后移1位，元素即可插入序列中。
+ 算法分析
+交换排序 冒泡排序  思想：相邻元素两两比较，若为逆序则交换次序，得出最大(最小)的元素，将其移动到最终位置。
+ 快速排序  使用分治思想，递归排序元素。
+以序列首元素为key，高端下标high从末端往前查找比key小的元素，将查找到的赋值给低端下标low；低端下标low从首端往后查找比key大的元素，将查找到的赋值给高端下标high；若首末端查找的下标重合，将key放到低端下标low的位置。注意，高端下标先行。
+ 算法实现
+void QucikSort(int a[],int low, int high){ int l = low,h = high; int temp = a[low]; while (l&amp;lt;h) { while (l&amp;lt;h&amp;amp;&amp;amp;temp&amp;lt;a[h]) h--; if(l&amp;lt;h){ a[l] = a[h]; l++;} while (l&amp;lt;h&amp;amp;&amp;amp;temp&amp;gt;a[l]) l++; if(l&amp;lt;h){ a[h] = a[l]; h--;} a[l] =temp; if(low &amp;lt; l)QucikSort(a, low, l-1); if(l &amp;lt; high)QucikSort(a, h+1, high); } } 选择排序 直接选择排序 堆排序 排序算法对比 应用 </description>
+    </item>
+    
+  </channel>
+</rss>
